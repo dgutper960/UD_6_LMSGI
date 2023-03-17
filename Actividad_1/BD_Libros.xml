@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Libros SYSTEM "BD_Libros.dtd">
-<Libros
+<Libros>
     <libro>
         <Cod_Libro>1</Cod_Libro>
         <Titulo>Don Quijote de la Mancha</Titulo>

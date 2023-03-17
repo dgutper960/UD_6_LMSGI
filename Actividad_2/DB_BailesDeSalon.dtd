@@ -1,0 +1,12 @@
+<!ELEMENT Bailes (baile+)>
+<!ELEMENT baile (nombre,precio,plazas,comienzo,fin,profesor,sala)>
+<!ATTLIST baile id NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio cuota NMTOKEN #REQUIRED>
+<!ATTLIST precio moneda NMTOKEN #REQUIRED>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT comienzo (#PCDATA)>
+<!ELEMENT fin (#PCDATA)>
+<!ELEMENT profesor (#PCDATA)>
+<!ELEMENT sala (#PCDATA)>
